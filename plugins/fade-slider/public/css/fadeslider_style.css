@@ -1,0 +1,75 @@
+/* Public style */
+.display-sec h3,
+.display-sec p {
+    color: #ffffff;
+}
+
+a.carousel-control:hover,
+a.carousel-control:focus {
+    color: #fff !important;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+}
+
+.display-sec {
+    margin-bottom: 25px;
+}
+
+.slide .carousel-indicators {
+    bottom: -15px !important;
+}
+
+.slide .carousel-caption {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.display-sec h3 {
+    font-size: 18px;
+}
+
+.display-sec p {
+    margin-bottom: 1.5em;
+    font-size: 14px;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 768px) {
+    .slide .carousel-caption {
+        width: 100%;
+        right: 0;
+        left: 0;
+        background: rgba(0, 0, 0,0.5);
+        padding-bottom: 0;
+        bottom: 0;
+    }
+
+    .slide .display-sec h3 {
+     margin: 8px auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .slide .display-sec h3{
+        margin: 8px auto;
+    }
+
+    .slide .carousel-caption {
+        position: relative;
+        right: 0;
+        bottom: 20px;
+        left: 0;
+        z-index: 10;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #fff;
+        text-align: center;
+        background: rgba(0, 0, 0,0.5);
+        top: 0;
+    }
+
+    .slide .carousel-caption p {
+        margin-bottom: 1.6em;
+    }
+}

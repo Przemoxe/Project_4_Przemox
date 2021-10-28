@@ -1,0 +1,39 @@
+.about{
+    background-color:#611dd4;
+    color:black;
+    padding-top:10vh;
+    padding-bottom:19vh;
+    .fotka{
+        background-color:#eb6a15;
+        height:32vh;
+        position:relative; 
+        margin-right:-5vh;
+        div{
+            color:white;
+            height:25vh;
+            position: absolute;
+            width:100%;
+            left:3vh;
+            top:3vh;
+        }
+        img{
+                
+            width:100%;
+            height:35vh; 
+            object-fit: cover;  
+            object-position: center; 
+            position:absolute;
+            left:3vh;
+            top:3vh;
+        }
+        
+    }
+
+}
+
+.photo_description{
+    margin-top:9vh;
+    height:25vh; 
+    background-color:white;
+    z-index:1;
+}

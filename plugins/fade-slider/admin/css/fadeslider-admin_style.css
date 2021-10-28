@@ -1,0 +1,126 @@
+/* Admin style */
+#fadeslider_add_slide h2,
+#fadeslider_add_slide .handlediv {
+    display: none;
+}
+#fadeslider_add_slide .left h3 {
+    padding: 7px 5px;
+    line-height: 27px;
+    margin: 10px auto;
+    font-size: 22px;
+}
+#fadeslider_add_slide .left th {
+    padding: 0 7px;
+}
+#fadeslider_add_slide .inside {
+    padding: 0;
+    margin: 0;
+}
+#fadeslider_add_slide table.widefat {
+    border: none;
+}
+.slide-thum {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-size: auto 150px;
+    background-position: center;
+    border: 1px solid #ddd;
+}
+#fade_slide span.dashicons.dashicons-images-alt2 {
+    position: relative;
+    top: 3px;
+}
+.fade-slide-inputs input,.fade-slide-inputs textarea {
+    font-size:13px;
+}
+.slide-thum span:hover {
+    cursor: pointer;
+}
+.slide-thum span {
+    color: #a00;
+}
+.fade-form-control {
+    width: 100%;
+}
+.fade-slide-inputs .fade-form-control {
+    margin-bottom: 10px;
+    border: 1px solid #333;
+}
+.fade-slide-inputs textarea.fade-form-control {
+    margin-bottom: 0px;
+}
+.fadeslider-wrap::after {
+    content: ' ';
+    display: block;
+    clear: both;
+    height: 1px;
+    width: 100%;
+}
+.fadeslider-wrap .regular-text {
+ width: 100%;
+}
+.fadeslider-wrap .no-top-margin {
+ margin-top: 0px;
+}
+.fade-slide-image {
+    float: left;
+    width: 150px;
+}
+.fade-slide-image img {
+    width: 150px;
+    height: 150px;
+}
+.fadeslider-options {
+    clear: both;
+    overflow: hidden;
+}
+.fadeslider-options p {
+    float: left;
+    width: 45%;
+    margin-right: 8%;
+}
+.fadeslider-options p:last-child {
+    margin-right: 0;
+}
+.fadeslider-options label,.fadeslider-shortcode label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600;
+}
+.fadeslider-options select {
+    margin: auto;
+}
+tr.append_slide td {
+    padding: 18px 30px;
+}
+#fadeslider_appenda {
+    overflow: hidden;
+    padding: 16px;
+}
+#fadeslider_appenda .widefat thead th{
+    border-bottom: 1px solid #006799;
+}
+.slide-thum span {
+    color: #fff;
+    background: #0085ba;
+    padding: 5px;
+    font-size: 20px;
+}
+.slide-thum span:hover {
+    background: #a00;
+}
+img#slide-loader {
+    display: block;
+    margin: auto;
+    position: relative;
+}
+span.dashicons.dashicons-sort {
+    cursor: move;
+}
+.fade-slide-image span {
+    display: none;
+}
+.fade-slide-image:hover span {
+    display: block;
+}

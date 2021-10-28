@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    --bs-gutter-x: 0!important;
+}
+.logo-image{
+    max-height:4vh; 
+    max-width:4vh;
+}
+.text-after-logo{
+        padding-left:10%; 
+        font-weight:600;
+        .text-after-customer{
+            color:#611dd4;
+        }
+}
+.intro{
+    background-color: #eb6a15;
+    height:100vh;
+    color:white;
+    position:relative;
+    z-index: 1;
+
+    h1{
+        text-transform: uppercase;
+        font-size:4rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+    h4{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    p{
+        padding-right:7%;
+        margin-bottom: 4rem;   
+    }
+    .logo{
+        h5{
+            font-weight: 700;
+            margin-left:10px;
+        }
+        img{
+            color:white;
+            
+        }
+    }
+    .bg-2{
+        background: url(http://cut2code.test/wp-content/uploads/2021/10/bg2.png);
+        width:100%;
+        height:90%;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom:0;
+        left:0;
+        z-index: -1;
+    }
+    .bg-1{
+        background: url(http://cut2code.test/wp-content/uploads/2021/10/bg.png);
+        width:40%;
+        height:100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top:-20px;
+        right:0;
+        z-index: -1;
+    }
+
+
+    
+}
+
+.circle{
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.circle-white-big{
+    width:38vw;
+    height:38vw;
+    background-color: white;
+    .circle-purple-dark{
+        background-color: #3f2562;
+        width:34vw;
+        height:34vw;
+        margin-top:20px;
+        .circle-purtple-white{
+            background-color: #611dd4;
+            width: 30.5vw;
+            height:30.5vw;
+            margin-top:20px;
+            .circle-white-small{
+                background-color: white;
+                width:26.5vw;
+                height:26.5vw;
+                margin-top:20px;
+                overflow: hidden;
+                img{
+                    margin-top: 30%;
+                    width:100%;
+                }
+            }
+        }
+    }
+
+}
+
+//przyciski
+.btn-intro{
+    border-radius: 33px;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    background-color: #611dd4;
+    color: white;
+    padding: 13px 60px 13px 60px;
+    text-decoration: none;
+    &:hover{
+        background-color:white;
+        color: #611dd4;
+    }
+
+}

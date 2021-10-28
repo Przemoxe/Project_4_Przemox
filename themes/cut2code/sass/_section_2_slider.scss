@@ -1,0 +1,52 @@
+
+.row-header{
+    padding-top:18vh;
+    p{
+        font-size:2.5rem;
+        color:white;
+    }
+}
+.slider_section{
+    position:relative; 
+    height:45vh;
+    .container-fluid{
+        position:absolute; 
+        top:-15vh;
+    }
+}
+
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #eb6a15;
+    opacity:1;
+   
+}
+.carousel-indicators .active {
+    background-color: #611dd4!important;
+    opacity:1;
+}
+.carousel-indicators  {
+    bottom: -70px!important;
+    .btn-slider{
+        height:18px; 
+        margin:0;
+    }
+}
+
+.carousel-caption{
+    bottom: unset;
+    background:  rgba(0, 0, 0,0);
+}
+
+.carousel-item{
+    img{
+        border-radius:25px; 
+        height:30vh; 
+        width:100%; 
+        object-fit: cover;  
+        object-position: center;
+    }
+    .margin-from-image{
+        margin-bottom:100px;
+    }
+}
